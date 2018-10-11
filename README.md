@@ -1,7 +1,7 @@
 # multiclusterdns
 Test repository for changing API type of MultiClusterServiceDNSRecord to ServiceDNS
 
-Example used to test the plurilization:
+Example used to test the pluralization:
 
 ```
 apiVersion: mygroup.k8s.io/v1beta1
