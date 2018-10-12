@@ -22,11 +22,11 @@ NAME               CREATED AT
 test-servicedns     21m
 
 $ kubectl get servicednss
-NAME               CREATED AT
-test-servicedns     21m
+ error: the server doesn't have a resource type "servicednsses"
 
 $ kubectl get servicednsses
-error: the server doesn't have a resource type "servicednsses"
+NAME               CREATED AT
+test-servicedns     21m
 
 
 ```
