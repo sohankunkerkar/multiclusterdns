@@ -4,12 +4,12 @@ metadata:
   creationTimestamp: null
   labels:
     controller-tools.k8s.io: "1.0"
-  name: servicednss.mygroup.k8s.io
+  name: servicednses.mygroup.k8s.io
 spec:
   group: mygroup.k8s.io
   names:
     kind: ServiceDNS
-    plural: servicednss
+    plural: servicednses
   scope: Namespaced
   validation:
     openAPIV3Schema:

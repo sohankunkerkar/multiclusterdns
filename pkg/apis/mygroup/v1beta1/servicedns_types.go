@@ -39,6 +39,7 @@ type ServiceDNSStatus struct {
 
 // ServiceDNS is the Schema for the servicedns API
 // +k8s:openapi-gen=true
+kubebuilder:resource:path=servicednses
 type ServiceDNS struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
